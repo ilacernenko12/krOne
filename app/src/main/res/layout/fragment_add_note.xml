@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/addInfoLayout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingStart="20dp"
+    android:background="#A5A87A"
+    android:paddingEnd="20dp"
+    android:theme="@style/Theme.MaterialComponents.Light"
+    tools:context=".presentation.addnote.AddNoteFragment">
+
+    <TextView
+        style="@style/TextAppearance.AppCompat.Title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:text="Добавление заметки"
+        android:textSize="30sp" />
+
+    <EditText
+        android:id="@+id/vHeaderInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Заголовок" />
+
+    <EditText
+        android:id="@+id/vTvNoteBodyInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Описание" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnSave"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:text="Добавить"
+        android:textColor="@color/white"
+        android:background="#634A0A"
+        android:textSize="16sp" />
+
+</LinearLayout>
