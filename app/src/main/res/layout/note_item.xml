@@ -2,7 +2,7 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:background="#DACF7E"
+    android:background="#96CEFF"
     android:layout_margin="10dp"
     android:orientation="vertical"
     android:padding="10dp">
@@ -12,6 +12,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Заголовок"
+        android:textAlignment="center"
         android:textColor="#303030"
         android:textSize="20sp"
         android:textStyle="bold" />

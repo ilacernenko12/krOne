@@ -35,9 +35,9 @@ class NotesAdapter: RecyclerView.Adapter<NotesViewHolder>() {
         }
 
         if (item.isPinned) {
-            holder.binding.root.setBackgroundColor(Color.rgb(250, 128, 114))
+            holder.binding.root.setBackgroundColor(Color.rgb(190, 255, 150))
         } else {
-            holder.binding.root.setBackgroundColor(Color.rgb(218,207,126))
+            holder.binding.root.setBackgroundColor(Color.rgb(150,206,255))
         }
     }
 
